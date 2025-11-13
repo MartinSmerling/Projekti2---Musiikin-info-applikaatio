@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Last.fm Musiikki Info App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Last.fm -musiikkiselain</h1>
+    <p>Valitse artisti tai etsi nähdäksesi heidän suosituimmat albuminsa ja kappaleensa.</p>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <section>
+        <h2>Suositut artistit</h2>
+        <div id="artist-list" class="artist-list"></div>
+      </section>
+
+      <section class="search-section">
+        <h2>Hae artistia</h2>
+        <form id="search-form">
+          <input
+            id="search-input"
+            type="text"
+            placeholder="Kirjoita artistin nimi..."
+            required
+          />
+          <button type="submit">Etsi</button>
+        </form>
+        <p class="hint">Paina Enteriä tai klikkaa Hae</p>
+      </section>
+    </aside>
+
+    <section class="content">
+      <h2 id="current-artist-title">Albumit</h2>
+      <div id="albums" class="albums-grid">
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>
+      Data
+      <a href="https://www.last.fm/api" target="_blank" rel="noreferrer">
+        Last.fm API
+      </a>.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
