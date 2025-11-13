@@ -1,26 +1,24 @@
-# Finnkino Movie Explorer
+# Last.fm Music Info App
 
-A small vanilla JavaScript app that fetches live data from the [Finnkino XML API](https://www.finnkino.fi/xml) and displays the current movie schedule for a selected theatre.
+Tämä projekti on tehty kurssitehtävää varten. Sovellus hakee Last.fm API:n avulla
+valitun artistin albumit sekä albumien kappalelistat. Koko sovellus on toteutettu
+vanilla JavaScriptillä ilman ulkoisia kirjastoja, kuten tehtävänannossa vaaditaan.
 
-## Features
+## 🎵 Ominaisuudet
 
-- Live theatre list from Finnkino
-- Shows current schedule (title, theatre, auditorium, start time, poster image)
-- Filter movies by title with a custom search field
-- All event handlers added dynamically in JavaScript
-- Uses only native JS (`fetch` + DOM methods), no external JS libraries
+- Dynaamisesti luodut artistinapit sivupalkissa
+- Mahdollisuus hakea mitä tahansa artistia hakukentällä
+- Albumien haku Last.fm API:sta (`artist.gettopalbums`)
+- Albumien kappalelistan haku (`album.getinfo`)
+- Tyylikäs grid-layout albumeille
+- Kaikki event handlerit lisätty JavaScriptillä
+- Ei käytetty ulkopuolisia JS-kirjastoja
+- Toimii Netlifyssä sekä GitHub Pagesissa
 
-## Tech Stack
+## 🛠️ Käytetyt teknologiat
 
-- HTML5
-- CSS3
-- Vanilla JavaScript
-- Finnkino XML API
-
-## How to Run Locally
-
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/finnkino-movie-explorer.git
-   cd finnkino-movie-explorer
+- **HTML5**
+- **CSS3**
+- **Vanilla JavaScript (ES6+)**
+- **Last.fm API**  
+  https://www.last.fm/api
