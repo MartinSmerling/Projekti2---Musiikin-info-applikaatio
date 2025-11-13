@@ -1,8 +1,7 @@
-# Last.fm Music Info App
+# Last.fm Musiikin info applikaatio
 
-Tämä projekti on tehty kurssitehtävää varten. Sovellus hakee Last.fm API:n avulla
-valitun artistin albumit sekä albumien kappalelistat. Koko sovellus on toteutettu
-vanilla JavaScriptillä ilman ulkoisia kirjastoja, kuten tehtävänannossa vaaditaan.
+Tämä projekti on tehty "AJAX-sovellus REST APIa hyödyntäen" tehtävää varten. Sovellus hakee Last.fm API:n avulla
+valitun artistin albumit sekä albumien kappalelistat.
 
 ## 🎵 Ominaisuudet
 
@@ -13,4 +12,4 @@ vanilla JavaScriptillä ilman ulkoisia kirjastoja, kuten tehtävänannossa vaadi
 - Tyylikäs grid-layout albumeille
 - Kaikki event handlerit lisätty JavaScriptillä
 - Ei käytetty ulkopuolisia JS-kirjastoja
-- Toimii Netlifyssä sekä GitHub Pagesissa
+- Toimii Netlifyssa sekä GitHubissa
